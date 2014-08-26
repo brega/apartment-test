@@ -1,0 +1,23 @@
+  development:
+    adapter: postgresql
+    database: apartment-test-dev
+    username: postgres
+    password:
+    host: localhost
+    schema_search_path: 'lx_default,public'
+
+  staging:
+    adapter: postgresql
+    username: postgres
+    password:
+    host: localhost
+    database: apartment-test-staging
+    schema_search_path: 'lx_default,public'
+
+  production:
+    adapter: postgresql
+    username: postgres
+    password:
+    host: localhost
+    database: apartment-test-production
+    schema_search_path: 'lx_default,public'
